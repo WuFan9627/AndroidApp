@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693061861907",
+    "firebase_url": "https://starbucks-e23c4.firebaseio.com",
+    "project_id": "starbucks-e23c4",
+    "storage_bucket": "starbucks-e23c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693061861907:android:40a611880fb1aa19",
+        "android_client_info": {
+          "package_name": "bad.twitterfriendschannel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693061861907-no12d844v6tfspr8td5i1gsum7vb29lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bad.twitterfriendschannel",
+            "certificate_hash": "07b7dc57aafd1ac0fd8c4de2a3cf463c825296fb"
+          }
+        },
+        {
+          "client_id": "693061861907-abeq5t3i439vut294kq2nvlo7u9fr4l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcsthTiI6oRKz7ylThCQCS85UM5DVmf5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693061861907-abeq5t3i439vut294kq2nvlo7u9fr4l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
