@@ -1,5 +1,5 @@
 # AndroidApp
-## Environment
+## Environment Setup
 * AsterixDB
 [Click to Download](https://cwiki.apache.org/confluence/display/ASTERIXDB/Creating+a+BAD+Cluster+of+AsterixDB)
 
@@ -9,3 +9,7 @@
 ```
 twurl /1.1/statuses/home_timeline.json?count=1 > tweets.json
 ```
+
+## Android related
+## Future improvement
+
