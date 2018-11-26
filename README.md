@@ -1,4 +1,11 @@
 # AndroidApp
+## Introduction
+* [click to watch demo](https://www.youtube.com/watch?v=jEFvWzdaVEM&t=2s)
+* This APP demonstrates Big Active Data (BAD) concept by utilizing the continuous query and data ingestion capabilities of Asterix DB.
+* It offers a notification service to users when their Twitter friends are nearby so they can meet at a nearby coffee shop.Users can subscribe to a channel created by Broker (i.e. Followers/Followees). When followers or followees are approaching a user’s location, Broker sends a notification to users and displays them on the mobile map. The application also marks the coffee shops (Starbucks) nearby. Thus, users can send a message through the application and invite friends to meet at a coffee shop.
+* Architecture
+![Screenshot](Starbucks Meeting App.pdf)
+
 ## Environment Setup
 #### AsterixDB
 * [Click to Download](https://cwiki.apache.org/confluence/display/ASTERIXDB/Creating+a+BAD+Cluster+of+AsterixDB)
@@ -20,5 +27,6 @@ twurl /1.1/statuses/home_timeline.json?count=1 > tweets.json
 * Using script in ddl directory to get tweets automatically.
 
 ## Android related
+
 ## Future improvement
 
