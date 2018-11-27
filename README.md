@@ -6,17 +6,16 @@
 * ![Architecture](https://github.com/WuFan9627/AndroidApp/blob/master/Starbucks%20Meeting%20App.pdf)
 
 ## Environment Setup
-#### AsterixDB
-* [Click to Download](https://cwiki.apache.org/confluence/display/ASTERIXDB/Creating+a+BAD+Cluster+of+AsterixDB)
+#### AsterixDB   [Click to Download](https://cwiki.apache.org/confluence/display/ASTERIXDB/Creating+a+BAD+Cluster+of+AsterixDB)
 
-#### Broker
-* [Click to Download](https://bitbucket.org/yusufsarwar/badbroker/overview)
-* Configuration:
-1. BADBroker.py: If broker is deployed in local computer, make sure that the brokerIPAddr and brokerPort is "localhost" and "8989"
-2. BADWebServer.py: The application should listen to the same port that set in BADBroker.py
-3. notifier/android.py: Get gcmRegistrationToken[Tutorial](https://firebase.google.com/docs/cloud-messaging/android/client) and gcmAuthorizationKey from firebase console [Tutorial](https://developer.clevertap.com/docs/find-your-fcm-sender-id-fcm-server-api-key).
+#### Broker   [Click to Download](https://bitbucket.org/yusufsarwar/badbroker/overview)
+###### Configuration:
+* BADBroker.py: If broker is deployed in local computer, the brokerIPAddr and brokerPort should be "localhost" and "8989"
+* BADWebServer.py: The application should listen to the same port that set in BADBroker.py
+* notifier/android.py: Get gcmRegistrationToken[Tutorial](https://firebase.google.com/docs/cloud-messaging/android/client) and gcmAuthorizationKey from firebase console [Tutorial](https://developer.clevertap.com/docs/find-your-fcm-sender-id-fcm-server-api-key).
+* Register application using ddl scripts in "localhost:8989". The dataverse name should be "Starbucks".
 
-#### Twitter
+#### Twitter 
 * Create a developer account in twitter developer console
 * Save the timeline tweets in local file using following commend: [Timeline API Tutorial](https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-user_timeline.html)
 ```
@@ -26,6 +25,7 @@ twurl /1.1/statuses/home_timeline.json?count=1 > tweets.json
 * Running ddl in AsterixDB console to get tweets automatically.
 
 ## Main function in Android
+Modify related tokens and keys in strings.xml
 * ChannelsActivity.java & ChannelsAdapter: subscribe & unsubscribe
 * FollowersActivity.java & FollowersAdapter: show all the followers
 * LoginActivity.java: register and login 
